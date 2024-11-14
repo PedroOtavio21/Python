@@ -1,11 +1,11 @@
 # Crie um programa que simule uma senha de 4 dígitos. O usuário tem 3 tentativas para acertar. 
 # Use um loop while e o break para controlar as tentativas.
 
-senha = 1234
+senha = input("Crie sua senha: ")
 tentativas = 3
 
 while tentativas > 0:
-    teste = int(input('Insira sua senha de acesso: '))
+    teste = (input('Insira sua senha de acesso: '))
     if teste != senha:
         tentativas -= 1
         if tentativas > 0:
